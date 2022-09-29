@@ -2,7 +2,6 @@
 
 .left-handed {
     display: flex;
-    justify-content: space-between;
     min-width: 60rem;
     height: 100%;
     padding: 1.31rem 0.62rem 0.62rem 0.62rem;
