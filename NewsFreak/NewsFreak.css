@@ -1,0 +1,28 @@
+@import url("../styles.css");
+
+.news-freak {
+  display: flex;
+  justify-content: space-between;
+  min-width: 60rem;
+  height: 100%;
+  padding: 1.31rem 0.62rem 0.62rem 0.62rem;
+}
+.medium-width {
+    display: none;
+}
+
+.large-width {
+    display: none;
+}
+
+@media (min-width: 78.5rem) {
+    .medium-width {
+        display: block;
+    }
+}
+
+@media (min-width: 104.5rem) {
+    .large-width {
+        display: block;
+    }
+}
