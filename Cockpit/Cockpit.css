@@ -1,0 +1,35 @@
+@import url("../styles.css");
+
+.cockpit {
+    min-width: 60rem;
+    height: calc(100% - 1.93rem);
+    padding: 1.31rem 0.62rem 0.62rem 0.62rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: .65rem;
+}
+
+.cockpit > * {
+    max-height: 50%;
+}
+
+.medium-width {
+    display: none;
+}
+
+.large-width {
+    display: none;
+}
+
+@media (min-width: 78.5rem) {
+    .medium-width {
+        display: block;
+    }
+}
+
+@media (min-width: 104.5rem) {
+    .large-width {
+        display: block;
+    }
+}
