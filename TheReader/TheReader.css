@@ -1,0 +1,30 @@
+@import url("../styles.css");
+
+.the-reader {
+    min-width: 60rem;
+    height: calc(100% - 3.125rem);
+    padding: 1.31rem 0.62rem 0.62rem 0.62rem;
+    display: grid;
+    grid-template-columns: 15.31rem 26.62rem 1fr;
+    grid-template-areas: "feeds-list headlines-list embeded-website";
+    gap: .65rem;
+}
+
+
+.feeds-list-container {
+   grid-area: feeds-list ;
+   overflow: auto;
+   scrollbar-width: none; /*mozilla*/
+}
+.feeds-list-container::-webkit-scrollbar{
+    display: none; /* Safari and Chrome*/
+}
+.feeds-list {
+    display: flex;
+    flex-direction: column;
+    gap: .65rem;
+}
+.feeds-list-item {
+    height: 2.43rem;
+    background-color: antiquewhite;
+}
