@@ -1,8 +1,9 @@
 @import url("../styles.css");
 
 .left-handed {
-    display: flex;
     min-width: 60rem;
-    height: 100%;
     padding: 1.31rem 0.62rem 0.62rem 0.62rem;
+    display: grid;
+    grid-template-columns: 1fr 24.35rem;
+    gap: 1.62rem;
 }
