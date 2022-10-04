@@ -26,8 +26,8 @@ ul {
 }
 
   .headlines-list-container {
-    grid-area: headlines-list;
     overflow: auto;
+    width: 100%;
   }
   
   .headlines-list {
