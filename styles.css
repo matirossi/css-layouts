@@ -4,6 +4,7 @@
   --grid-headers-color: #d3dee4;
   --feeds-list-background-color: antiquewhite;
   --headlines-list-background-color: #f9fbfd;
+  --headlines-list-width: 24.35rem; 
 }
 
 * {
