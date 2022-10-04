@@ -39,9 +39,10 @@ ul {
   width: 100%;
   display: flex;
   flex-direction: column;
+  gap: 0.62rem;
 }
 
-.headlines-list-header {
+.headlines-list-header, .cards-list-header {
   height: 2.4rem;
   background-color: var(--headlines-list-background-color);
 }
@@ -64,8 +65,9 @@ ul {
 .cards-list-container {
   width: 100%;
   min-width: 32rem;
-  padding: 1.25rem;
-  background-color: var(--list-items-border-color);
+  display: flex;
+  flex-direction: column;
+  gap: 0.62rem;
 }
 
 .cards-list {

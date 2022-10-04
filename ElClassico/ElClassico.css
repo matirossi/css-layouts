@@ -1,9 +1,9 @@
 @import url(../styles.css);
 
 .el-classico {
-  display: flex;
   min-width: 60rem;
-  height: 100%;
+  display: grid;
+  grid-template-columns: 24.35rem 1fr;
+  gap: 1.62rem;
   padding: 1.31rem 0.62rem 0.62rem 0.62rem;
 }
-
