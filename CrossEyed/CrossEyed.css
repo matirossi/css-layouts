@@ -1,7 +1,8 @@
 @import url("../styles.css");
 
 .cross-eyed {
-    display: flex;
-    min-width: 60rem;
-    gap: 1.625rem;
+  padding: 1.31rem 0.62rem 0.62rem 0.62rem;
+  display: flex;
+  min-width: 60rem;
+  gap: 1.625rem;
 }
