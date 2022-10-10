@@ -1,9 +1,13 @@
 :root {
-  --grid-lines-color: grey;
+  --body-background-color: #EEF2F4;
+  --headers-background-color:#F9FBFD;
+  --grid-lines-color: #d3dee4;
   --list-items-border-color: #d3dee4;
-  --grid-headers-color: #d3dee4;
-  --feeds-list-background-color: antiquewhite;
-  --headlines-list-background-color: #f9fbfd;
+  --grid-headers-background-color: #EEF2F4;
+  --headlines-list-item-background-color: #F9FBFD;
+  --feeds-list-item-background-color: #2274A5;
+  --cards-list-item-background-color: #091540 ;
+
   --headlines-list-width: 24.35rem; 
 }
 
@@ -14,6 +18,7 @@
 body {
   margin: 0;
   height: 100%;
+  background-color: var(--body-background-color);
 }
 
 main {
@@ -29,6 +34,7 @@ ul {
 
 .main-header {
   height: 3.125rem;
+  background-color: var(--headers-background-color);
 }
 
 .dashboard-container {
@@ -43,15 +49,14 @@ ul {
   gap: 0.625rem;
 }
 
-.headlines-list-header, .cards-list-header {
+.headlines-list-header, .cards-list-header, .embeded-website-header {
   height: 2.4rem;
-  background-color: var(--headlines-list-background-color);
+  background-color: var(--headers-background-color);
 }
 
 .headlines-list {
   scrollbar-width: none; /*mozilla*/
   height: calc(100% - 2.4rem);
-  background-color: var(--headlines-list-background-color);
 }
 .headlines-list::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
@@ -60,6 +65,7 @@ ul {
 .headlines-list-item {
   height: 39px;
   width: 100%;
+  background-color: var(--headlines-list-item-background-color);
   border-bottom: 0.01rem solid var(--list-items-border-color);
 }
 
@@ -81,5 +87,5 @@ ul {
 }
 
 .cards-list-item {
-  background-color: darkcyan;
+  background-color: var(--cards-list-item-background-color);
 }

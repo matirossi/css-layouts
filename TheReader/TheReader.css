@@ -18,7 +18,7 @@
 
 .the-reader > * > header {
     height: 2.4rem;
-    background-color: var(--grid-headers-color);
+    background-color: var(--grid-headers-background-color);
     border-bottom: 00.1rem solid var(--grid-lines-color);
 
 }
@@ -30,13 +30,16 @@
 .feeds-list {
     scrollbar-width: none; /*mozilla*/
     height: calc(100% - 2.4rem);
-    background-color: var(--feeds-list-background-color);
 }
 .feeds-list::-webkit-scrollbar{
     display: none; /* Safari and Chrome*/
 }
 .feeds-list-item {
     height: 2.43rem;
+    background-color: var(--feeds-list-item-background-color);
     border-bottom: .01rem solid #d3dee4;
+}
 
+.embeded-website-container {
+    background-color: var(--cards-list-item-background-color);
 }
