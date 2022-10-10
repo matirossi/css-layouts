@@ -37,9 +37,17 @@
 .feeds-list-item {
     height: 2.43rem;
     background-color: var(--feeds-list-item-background-color);
-    border-bottom: .01rem solid #d3dee4;
+    border-bottom: .01rem solid var(--grid-lines-color);
 }
 
 .embeded-website-container {
     background-color: var(--cards-list-item-background-color);
+}
+
+.headlines-list-container {
+    gap: 0rem;
+}
+.headlines-list-item {
+    margin-bottom: 0rem;
+    border-bottom: .01rem solid var(--list-items-border-color);
 }

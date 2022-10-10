@@ -57,16 +57,17 @@ ul {
 .headlines-list {
   scrollbar-width: none; /*mozilla*/
   height: calc(100% - 2.4rem);
+  flex-direction: column;
 }
 .headlines-list::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
 
 .headlines-list-item {
-  height: 39px;
+  height: 4.75rem;
   width: 100%;
   background-color: var(--headlines-list-item-background-color);
-  border-bottom: 0.01rem solid var(--list-items-border-color);
+  margin-bottom: .625rem;
 }
 
 .cards-list-container {
